@@ -6,16 +6,18 @@ img {
     width: 100%;
     height: auto;
 }
-
 @media screen and (min-width:40em) {
     img {
         width: 700px
     }
     .records img {
         width: 500px;
-    }
+} }
+@media screen and (min-width: 64em) {
+    p{
+       font-size: 2rem;
+     }
 }
-    
 a {
     text-decoration: none;
     color: #EEB4B4;
@@ -186,4 +188,12 @@ select {
 .learn-more:hover {
     background-color: #DFF7EF;
     color: #499A7E;
+}
+.info-list {
+    display: list-item;
+}
+.container {
+     display: flex;
+     justify-content: space-between;
+     max-width: 75rem;
 }
